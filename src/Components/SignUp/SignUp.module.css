@@ -1,0 +1,56 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #19A186, #F2CF43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBox {
+    min-width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 30px;
+    border-radius: 6%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+}
+
+.footer .error {
+    font-weight: bold;
+}
+
+.footer button {
+    outline: none;
+    border: none;
+    background-color:#debe08;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1 rem;
+    padding: 10px 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background-color: #55D284;
+}
+
+.footer p {
+    font-weight: bold;
+    color:  #000;
+}
+
+.error {
+    color : red;
+}
